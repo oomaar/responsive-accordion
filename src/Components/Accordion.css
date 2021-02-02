@@ -1,0 +1,40 @@
+.accordion{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 800px;
+    padding: 10px;
+}
+
+.accordion__button {
+    display: flex;
+}
+
+.accordion__button__title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.accordion__button__image {
+    margin-left: auto;
+    margin-right: 20px;
+    width: 35px;
+    transition: transform 0.6 ease;
+}
+
+.accordion__content {
+    background-color: whitesmoke;
+    transition: max-height 0.6s ease;
+    overflow: hidden;   
+}
+
+.accordion__text {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 18px;
+}
+
+.accordion__icon {
+    margin-left: auto;
+   
+}

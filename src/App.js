@@ -1,10 +1,14 @@
 import React from 'react';
-import Accordion from './Accordion';
+import Accordion from './Components/Accordion';
 
 const App = () => {
   return (
     <div>
-      <Accordion />
+      <Accordion title="What is accordion ?" content="loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem" />
+      <Accordion title="What is accordion ?" content="loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem" />
+      <Accordion title="What is accordion ?" content="loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem" />
+      <Accordion title="What is accordion ?" content="loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem" />
+      <Accordion title="What is accordion ?" content="loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem" />
     </div>
   )
 }
